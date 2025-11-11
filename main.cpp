@@ -5,7 +5,6 @@
 #include "Instructor.h"
 #include "Course.h"
 
-
 using namespace std;
 
 // ==================== Person Class Implementation =========================
@@ -24,6 +23,10 @@ Person::display()
 
 Person::getName(){
 	return name;
+}
+
+Person::getId(){
+	return id;
 }
 
 Person::~Person(){}
@@ -96,7 +99,6 @@ Course :: ~Course(){
 
 
 int main() {
-	int main() {
 	Student s ("Mostafa", 1600, 2, "CS");
 	Instructor I ("Mostafa", 121, "CS", 12);
 	Course C ("121", "CS", 12);
@@ -106,5 +108,6 @@ int main() {
 	C.displayCourseInfo();
 }
 
-}
+
+
 
