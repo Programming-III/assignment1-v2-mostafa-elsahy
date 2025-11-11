@@ -96,8 +96,15 @@ Course :: ~Course(){
 
 
 int main() {
+	int main() {
 	Student s ("Mostafa", 1600, 2, "CS");
 	Instructor I ("Mostafa", 121, "CS", 12);
-	Course C 
+	Course C ("121", "CS", 12);
+	C.addStudent(s);
+	s.display();
+	I.display();
+	C.displayCourseInfo();
+}
+
 }
 
