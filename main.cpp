@@ -88,6 +88,10 @@ Course :: displayCourseInfo()
 	}
 }
 
+Course :: ~Course(){
+	delete [] students;
+}
+
 
 
 
