@@ -11,7 +11,10 @@ protected:
 public:
 	Person(string n, int i);
 	Person();
-	void display();
+	void virtual display();
+	~Person();
+	string getName();
+	int getId();
 };
 
 #endif
